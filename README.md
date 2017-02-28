@@ -1,19 +1,20 @@
-# Adfit Ad React Component
+# React Adfit Web Component
+A React component to display a AdFit Ad
 
 ## Installation
-`TODO`
+```
+npm install --save https://github.daumkakao.com/AdNetworkTech/react-adfit-web-component.git
+```
 
 ## Usage
 
-Add React component directly
+### Add React component directly
 
 ```
 import React from 'react';
 import AdfitWebComponent from 'react-adfit-web-component'
 
-Class IntegratedAdfitComponrnt extends React.Component{
-...bla
-
+Class IntegratedAdfitComponent extends React.Component {
     render() {
         return (
             <AdfitWebComponent 
@@ -28,22 +29,21 @@ Class IntegratedAdfitComponrnt extends React.Component{
 export default IntegratedAdfitComponent;
 ```
 
-or using config Object
+### Or using configuration bbject
 
 ```
 import React from 'react';
 import AdfitWebComponent from 'react-adfit-web-component'
 
-Class IntegratedAdfitComponrnt extends React.Component{
-...bla
-
+Class IntegratedAdfitComponent extends React.Component {
     render() {
-        // You can use also React component properties(eg. this.props...) or constant variable Object 
+        // You can use also React component properties(eg. this.props...) 
+        // or constant variable Object 
         let configObject = {
             adType: 'xxx',
             adUnit: 'xxx',
             adWidth: 'xxx',
-            addHeight: 'xxx'
+            adHeight: 'xxx'
         };
 
         return (
@@ -54,3 +54,6 @@ Class IntegratedAdfitComponrnt extends React.Component{
 
 export default IntegratedAdfitComponent;
 ```
+
+## Thanks to
+[@imazine-park](https://github.daumkakao.com/imazine-park)
