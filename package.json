@@ -1,0 +1,35 @@
+{
+  "name": "react-adfit-web-component",
+  "version": "1.0.0",
+  "description": "A React component to display a AdFit advert.",
+  "main": "dist/react-adfit-web-component.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "demo": "NODE_ENV=development webpack-dev-server --config webpack.config.dev.js --hot --host 0.0.0.0",
+    "bundle": "NODE_ENV=production webpack -p --config webpack.config.dist.js",
+    "lint": "node_modules/.bin/eslint src/**/*.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.daumkakao.com:AdNetworkTech/react-adfit-web-component.git"
+  },
+  "author": "humphrey.park <humphrey.park@kakaocorp.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-register": "^6.23.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.7.1",
+    "mocha": "^3.2.0",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
