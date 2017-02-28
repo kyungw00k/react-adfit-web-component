@@ -1,5 +1,5 @@
 import React from 'react';
-import loadScript from './helper/load-script';
+import loadScript from '../helper/load-script';
 
 class AdfitWebComponent extends React.Component {
 
@@ -41,3 +41,4 @@ class AdfitWebComponent extends React.Component {
 
 
 export default AdfitWebComponent;
+

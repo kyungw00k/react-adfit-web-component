@@ -1,3 +1,3 @@
-import AdfitWebComponent from './react-adfit-web-component';
+import AdfitWebComponent from './components/react-adfit-web-component';
 
 export default AdfitWebComponent;
