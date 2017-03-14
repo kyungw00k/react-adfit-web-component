@@ -1,6 +1,6 @@
 {
   "name": "react-adfit-web-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component to display a AdFit advert.",
   "main": "dist/react-adfit-web-component.js",
   "directories": {
