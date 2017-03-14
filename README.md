@@ -3,7 +3,7 @@ A React component to display a AdFit Ad
 
 ## Installation
 ```
-npm install --save https://github.daumkakao.com/AdNetworkTech/react-adfit-web-component.git
+npm install --save react-adfit-web-component
 ```
 
 ## Usage
