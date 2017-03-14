@@ -56,4 +56,4 @@ export default IntegratedAdfitComponent;
 ```
 
 ## Thanks to
-[@imazine-park](https://github.daumkakao.com/imazine-park)
+[@imazine](https://github.com/imazine)
