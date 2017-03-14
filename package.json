@@ -15,8 +15,8 @@
     "type": "git",
     "url": "git@github.daumkakao.com:AdNetworkTech/react-adfit-web-component.git"
   },
-  "author": "humphrey.park <humphrey.park@kakaocorp.com>",
-  "license": "ISC",
+  "author": "Kyungwook Park <parksama@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
