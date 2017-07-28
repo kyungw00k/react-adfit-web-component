@@ -32,7 +32,10 @@ class AdfitWebComponent extends React.Component {
                  data-ad-type={this.props.adType}
                  data-ad-unit={this.props.adUnit}
                  data-ad-width={this.props.adWidth}
-                 data-ad-height={this.props.adHeight}>
+                 data-ad-height={this.props.adHeight}
+                 data-ad-param-channel={this.props.adParamChannel}
+                 data-ad-param-cp={this.props.adParamCp}
+                 >
             </ins>);
     }
 }
