@@ -22,17 +22,15 @@ class AdfitWebComponent extends React.Component {
 
     render() {
         return (
-            <ins id={this.props.domId || 'daumAd'}
-                 className={'daum_ddn_area'}
+            <ins className={'kakao_ad_area'}
                  style={{
                      display: 'block',
                      width: '100%'
                  }}
-                 data-ad-imp-url={this.props.adImpUrl}
-                 data-ad-type={this.props.adType}
                  data-ad-unit={this.props.adUnit}
                  data-ad-width={this.props.adWidth}
                  data-ad-height={this.props.adHeight}
+                 data-ad-test={this.props.adTest || 'N'}
                  data-ad-param-channel={this.props.adParamChannel}
                  data-ad-param-cp={this.props.adParamCp}
                  >
