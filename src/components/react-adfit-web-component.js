@@ -8,7 +8,7 @@ class AdfitWebComponent extends React.Component {
     }
 
     componentWillMount() {
-        window.adfit || loadScript('//t1.daumcdn.net/adfit/static/ad.min.js', function(){})
+        window.adfit || loadScript('https://t1.daumcdn.net/kas/static/ba.min.js', function(){})
     }
 
     componentDidMount() {
