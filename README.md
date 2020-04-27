@@ -1,27 +1,23 @@
-# React Adfit Web Component
-A React component to display a AdFit Ad
+# :dollar: React [AdFit 광고](http://adfitinfo.biz.daum.net/) 컴포넌트
+> React로 손쉽게 AdFit 광고를 넣어보자!
 
-## Installation
+## 설치
+```sh
+$ npm install --save react-adfit-web-component
 ```
-npm install --save react-adfit-web-component
-```
 
-## Usage
+## 사용법
 
-### Add React component directly
-
-```
+```js
 import React from 'react';
 import AdfitWebComponent from 'react-adfit-web-component'
 
-Class IntegratedAdfitComponent extends React.Component {
+class IntegratedAdfitComponent extends React.Component {
     render() {
         return (
-            <AdfitWebComponent 
-             adType="xxx"
-             adUnit="xxx"
-             adWidth="xxx"
-             adHeight="xxx" />
+            <AdfitWebComponent
+             adUnit="DAN-Xxxxxxxx"
+            />
         );
     }
 }
@@ -29,31 +25,8 @@ Class IntegratedAdfitComponent extends React.Component {
 export default IntegratedAdfitComponent;
 ```
 
-### Or using configuration bbject
-
-```
-import React from 'react';
-import AdfitWebComponent from 'react-adfit-web-component'
-
-Class IntegratedAdfitComponent extends React.Component {
-    render() {
-        // You can use also React component properties(eg. this.props...) 
-        // or constant variable Object 
-        let configObject = {
-            adType: 'xxx',
-            adUnit: 'xxx',
-            adWidth: 'xxx',
-            adHeight: 'xxx'
-        };
-
-        return (
-            <AdfitWebComponent {...configObject}/>
-        );
-    }
-}
-
-export default IntegratedAdfitComponent;
-```
+## License
+MIT
 
 ## Thanks to
 [@imazine](https://github.com/imazine)

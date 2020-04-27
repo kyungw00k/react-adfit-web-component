@@ -6,11 +6,9 @@ const appRoot = document.getElementById('wrap')
 
 render(
     <AdfitWebComponent
-        domId="daumAd"
-        adImpUrl="http://www.mocky.io/v2/58119fd10f000026070baa94"
-        adType="M"
-        adUnit="320x100_midas_mobile"
-        adWidth="320"
-        adHeight="100"
+        adUnit="DAN-qec5f2maqlpi"
+        adWidth="250"
+        adHeight="250"
+        adTest="Y"
     />, appRoot
 );
